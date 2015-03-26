@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RegisterService</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register_service">RegisterServiceActivity</string>
+    <string name="register_service">Register Service</string>
+    <string name="title_activity_service_details">ServiceDetailsActivity</string>
+    <string name="name">Name*</string>
+    <string name="address">Address*</string>
+    <string name="phone">Phone*</string>
+    <string name="desc">Description*</string>
+    <string name="service_type">Service Type*</string>
+    <string name="register">Register</string>
+    <string name="error_required">Please fill in all the required fields!</string>
+    <string name="internet_error">Please check your internet connection!</string>
+    <string name="name_d">Name:</string>
+    <string name="address_d">Address:</string>
+    <string name="phone_d">Phone:</string>
+    <string name="desc_d">Description:</string>
+    <string name="service_type_d">Service Type:</string>
+
+</resources>

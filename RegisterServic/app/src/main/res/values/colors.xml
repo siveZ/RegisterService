@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_item_txt_color">#007BFF</color>
+    <color name="subscribe_btns_color">#06C400</color>
+    <color name="bg">#EAF4EE</color>
+</resources>

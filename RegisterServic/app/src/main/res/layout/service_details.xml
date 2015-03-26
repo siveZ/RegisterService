@@ -1,0 +1,138 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/bg"
+    tools:context="com.registerservic.app.ServiceDetailsActivity">
+
+    <LinearLayout
+        android:id="@+id/d_details_box"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/list_item_txt_color"
+            android:text="@string/name_d"/>
+
+        <TextView
+            android:id="@+id/d_name_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/list_item_txt_color"
+                android:text="@string/phone_d"/>
+
+            <TextView
+                android:id="@+id/d_phone_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="1565465"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                />
+            <ImageView
+                android:id="@+id/coll_img_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_action_call"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/list_item_txt_color"
+            android:text="@string/service_type_d"/>
+
+        <TextView
+            android:id="@+id/d_service_type_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/list_item_txt_color"
+                android:text="@string/address_d"/>
+
+            <TextView
+                android:id="@+id/d_address_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/list_item_txt_color"
+                android:text="@string/desc_d"/>
+
+            <TextView
+                android:id="@+id/d_desc_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
